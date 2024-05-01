@@ -579,6 +579,9 @@ section {
 .modal-item {
   margin-bottom: 8px;
 }
+.modal-item-comment {
+  margin-bottom: 16px;
+}
 .label-form-two {
   font-weight: 400;
   font-size: 12px;
