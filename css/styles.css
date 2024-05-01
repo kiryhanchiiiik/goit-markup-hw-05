@@ -593,7 +593,7 @@ section {
 }
 .input-container {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .input-item {
   width: 100%;
@@ -639,19 +639,6 @@ section {
 .marker-div {
   margin-bottom: 24px;
 }
-.checkbox-input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 .label-checkbox {
   font-weight: 400;
   font-size: 12px;
@@ -672,7 +659,7 @@ section {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-input:checked + .span-checkbox {
+.checkbox-input:checked + .label-checkbox .span-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
